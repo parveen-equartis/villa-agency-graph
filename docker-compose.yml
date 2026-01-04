@@ -4,7 +4,7 @@ networks:
 
 services:
   web:
-    image: parveendhiman/villa-agency-ci-cd-graph:latest
+    image: parveendhiman/villa-agency-graph:latest
     ports:
       - "80:80"
     restart: always
